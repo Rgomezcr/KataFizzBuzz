@@ -12,7 +12,9 @@ namespace FizzBuzzKata
                 return "2";
             if (number == 3)
                 return "Fizz";
-            return "4";
+            if (number == 4)
+                return "4";
+            return "Buzz";
         }
     }
 }
