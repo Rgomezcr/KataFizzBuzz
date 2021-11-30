@@ -8,7 +8,16 @@ namespace FizzBuzzKata.Tests
         [Fact]
         public void ReturnOneAsString()
         {
-            Assert.Equal("1", FizzBuzz.ReturnNumberAsString());
+            var number = 1;
+            Assert.Equal("1", FizzBuzz.ReturnNumberAsString(number));
         }
+
+        [Fact]
+        public void ReturnTwoAsString()
+        {
+            var number = 2;
+            Assert.Equal("2", FizzBuzz.ReturnNumberAsString(number));
+        } 
+        
     }
 }

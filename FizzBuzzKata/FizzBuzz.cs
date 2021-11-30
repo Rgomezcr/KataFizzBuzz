@@ -4,7 +4,7 @@ namespace FizzBuzzKata
 {
     public class FizzBuzz
     {
-        public static string ReturnNumberAsString()
+        public static string ReturnNumberAsString(int number)
         {
             return "1";
         }
