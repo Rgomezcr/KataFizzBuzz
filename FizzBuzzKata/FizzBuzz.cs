@@ -6,7 +6,7 @@ namespace FizzBuzzKata
     {
         public static string ReturnNumberAsString()
         {
-            throw new System.NotImplementedException();
+            return "1";
         }
     }
 }
