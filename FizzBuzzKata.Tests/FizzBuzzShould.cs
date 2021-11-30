@@ -6,8 +6,9 @@ namespace FizzBuzzKata.Tests
     public class FizzBuzzShould
     {
         [Fact]
-        public void Test1()
+        public void ReturnOneAsString()
         {
+            Assert.Equal("1", FizzBuzz.ReturnNumberAsString());
         }
     }
 }
