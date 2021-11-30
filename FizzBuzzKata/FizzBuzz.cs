@@ -6,7 +6,9 @@ namespace FizzBuzzKata
     {
         public static string ReturnNumberAsString(int number)
         {
-            return "1";
+            if (number == 1)
+                return "1";
+            return "2";
         }
     }
 }
