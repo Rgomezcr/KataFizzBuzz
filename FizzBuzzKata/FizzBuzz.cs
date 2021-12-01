@@ -6,25 +6,16 @@ namespace FizzBuzzKata
     {
         public static string ReturnNumberAsString(int number)
         {
-            if (number == 1)
-                return "1";
-            if (number == 2)
-                return "2";
-            if (number == 3)
+            if (number % 3 == 0)
                 return "Fizz";
-            if (number == 4)
-                return "4";
+            
             if (number == 5)
                 return "Buzz";
-            if (number == 6)
-                return "Fizz";
-            if (number == 7)
-                return "7";
-            if (number == 8)
-                return "8";
-            if (number == 9)
-                return "Fizz";
-            return "Buzz";
+            if (number == 10)
+                return "Buzz";
+           
+           
+            return number.ToString();
         }
     }
 }
