@@ -22,7 +22,9 @@ namespace FizzBuzzKata
                 return "7";
             if (number == 8)
                 return "8";
-            return "Fizz";
+            if (number == 9)
+                return "Fizz";
+            return "Buzz";
         }
     }
 }
