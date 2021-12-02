@@ -87,7 +87,13 @@ namespace FizzBuzzKata.Tests
         {
             var number = 20;
             Assert.Equal("Buzz", FizzBuzz.ReturnNumberAsString(number));
-        } 
-        
+        }
+
+        [Fact]
+        public void ReturnThirtyAsStringFizzBuzz()
+        {
+            var number = 30;
+            Assert.Equal("FizzBuzz", FizzBuzz.ReturnNumberAsString(number));
+        }
     }
 }
